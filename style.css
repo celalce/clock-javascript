@@ -1,0 +1,17 @@
+     .html {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;}
+    .body{
+        align-items: center;
+        text-align: center;
+    }
+
+    #Clock{
+    width: 330px;
+    height: 100px;
+    font-size: 52px;
+    text-align: center;
+
+    }
