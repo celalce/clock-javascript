@@ -5,11 +5,10 @@ setInterval(function(){
     var minutes = date.getMinutes();
 	
 	var seconds = date.getSeconds();
-	var ampm = (date.getHours()) < 12 ? 'AM' : 'PM';
-   
+	  
 
 
-    var gosterilenSaat =document.getElementById('Clock').innerHTML =hours +":"+minutes+":"+seconds+" "+ampm
+ var gosterilenSaat =document.getElementById('Clock').innerHTML =hours +":"+minutes+":"+seconds+" "+ampm
 	
 
 	
