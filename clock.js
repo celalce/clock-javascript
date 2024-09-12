@@ -8,7 +8,7 @@ setInterval(function(){
 	  
 
 
- var gosterilenSaat =document.getElementById('Clock').innerHTML =hours +":"+minutes+":"+seconds+" "+ampm
+ var gosterilenSaat =document.getElementById('Clock').innerHTML =hours +":"+minutes+":"+seconds;
 	
 
 	
