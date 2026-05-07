@@ -1,41 +1,42 @@
-Modern Digital Clock
-A sleek, responsive digital clock application built with vanilla JavaScript, HTML5, and CSS3. This project demonstrates real-time DOM manipulation and asynchronous execution logic.
+# Modern Digital Clock
 
-🚀 Features
-Asynchronous Time Updates: Utilizes JavaScript's setInterval to handle real-time clock synchronization without blocking the main thread.
+A sleek, responsive digital clock application built with vanilla **JavaScript**, **HTML5**, and **CSS3**. This project demonstrates real-time DOM manipulation and asynchronous execution logic.
 
-Dynamic Formatting: Implements logic to ensure a consistent HH:MM:SS format using string padding.
+![Digital Clock Preview](oclock.png)
 
-Neon UI Design: A modern dark-mode aesthetic with CSS glow effects and responsive Flexbox centering.
+## 🚀 Features
 
-Lightweight: Built with zero external dependencies or libraries.
+* **Asynchronous Time Updates:** Utilizes JavaScript's `setInterval` to handle real-time clock synchronization without blocking the main thread.
+* **Dynamic Formatting:** Implements logic to ensure a consistent `HH:MM:SS` format using string padding.
+* **Neon UI Design:** A modern dark-mode aesthetic with CSS glow effects and responsive Flexbox centering.
+* **Lightweight:** Built with zero external dependencies or libraries.
 
-🛠️ Tech Stack
-HTML5: Semantic structure for the clock container.
+## 🛠️ Tech Stack
 
-CSS3: Custom styling featuring neon glow effects, transitions, and flexible layouts.
+* **HTML5:** Semantic structure for the clock container.
+* **CSS3:** Custom styling featuring neon glow effects, transitions, and flexible layouts.
+* **JavaScript (ES6+):** Core logic focused on the `Date` object and asynchronous UI updates.
 
-JavaScript (ES6+): Core logic focused on the Date object and asynchronous UI updates.
+## 📖 How It Works
 
-📖 How It Works
 The application uses an asynchronous approach to keep the time accurate:
+1.  **The Loop:** A `setInterval` function triggers every 1000ms (1 second).
+2.  **Data Fetching:** The script captures the current system time using the `new Date()` constructor.
+3.  **UI Sync:** The DOM is updated dynamically, ensuring the user sees the latest time instantly without a page refresh.
 
-The Loop: A setInterval function triggers every 1000ms (1 second).
+## 🔧 Installation & Usage
 
-Data Fetching: The script captures the current system time using the new Date() constructor.
+1.  Clone this repository:
+    ```bash
+    git clone [https://github.com/celalce/clock-javascript.git](https://github.com/celalce/clock-javascript.git)
+    ```
+2.  Open the project folder:
+    ```bash
+    cd clock-javascript
+    ```
+3.  Launch `clock.html` in any modern web browser.
 
-UI Sync: The DOM is updated dynamically, ensuring the user sees the latest time instantly without a page refresh.
+## 👤 Author
 
-🔧 Installation & Usage
-Clone this repository:
-
-Bash
-git clone https://github.com/celalce/clock-javascript.git
-Open the project folder:
-
-Bash
-cd clock-javascript
-Launch clock.html in any modern web browser.
-
-👤 Author
-Celal Albayrak
+**Celal Albayrak**
+* GitHub: [@celalce](https://github.com/celalce)
